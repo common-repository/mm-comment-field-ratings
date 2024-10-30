@@ -1,0 +1,17 @@
+.mmcfr-stars::after {  clear: both; content: ""; display: block; }
+.mmcfr-stars { display: block; }
+.mmcfr-stars .mm-rating-title { display: inline-block; font-weight: bold; vertical-align: top; width: auto; margin-right: 10px;}
+.mmcfr-stars .br-wrapper { display: inline-block; text-align: left; vertical-align: top;}
+.br-widget.br-readonly { pointer-events: none;}
+.mmcfr-stars.mm-bars-1to10 .mm-rating-title,
+.mmcfr-stars.mm-bars-square .mm-rating-title,
+.mmcfr-stars.mm-bars-pill .mm-rating-title,
+.mmcfr-stars.mm-bars-boxed .mm-rating-title,
+.mmcfr-stars.mm-bars-1to10 .br-wrapper,
+.mmcfr-stars.mm-bars-movie .br-wrapper,
+.mmcfr-stars.mm-bars-square .br-wrapper,
+.mmcfr-stars.mm-bars-pill .br-wrapper,
+.mmcfr-stars.mm-bars-boxed .br-wrapper
+{vertical-align: middle;}
+
+.mm-clearfix::after {  clear: both; content: ""; display: block;}
